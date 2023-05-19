@@ -34,4 +34,4 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
 ## Architecture guidance and best practices for AKS
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
   - How to apply best practices for cluster operators and developers for day-2 operations?
-  - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?![image](https://github.com/yelghali/prompt-based-tutorial-AKS/assets/966110/70599eff-77aa-4873-875d-0e30296b21e8)
+  - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
