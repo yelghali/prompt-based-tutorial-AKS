@@ -7,7 +7,7 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
   - How to create an AKS cluster using different methods?
   - How to access and manage your cluster using kubectl and Azure CLI?
   - 
-## Deploying and scaling applications on AKS
+## Deploying your first applications on AKS
   - How to prepare an application for AKS deployment?
   - How to use Azure Container Registry to store and manage container images?
   - How to run, scale, and update my application on AKS?
@@ -26,10 +26,6 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
   - how to optimize the costs of monitoring AKS on Azure ?
   - How to use network policies and security baselines to protect your cluster from threats?
   - 
-##  Extending the capabilities of your AKS cluster
-  - How to use Open Service Mesh and Dapr to add service mesh features to your applications?
-  - How to use cluster extensions and GitHub Actions to automate and enhance your cluster operations?
-  - How to use advanced networking and ingress options to connect your cluster to other Azure resources and the internet?
 
 ## Architecture guidance and best practices for AKS
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
@@ -37,60 +33,73 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
   - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
 
 
+##  Extending the capabilities of your AKS cluster
+  - How to use Open Service Mesh and Dapr to add service mesh features to your applications?
+  - How to use cluster extensions and GitHub Actions to automate and enhance your cluster operations?
+  - How to use advanced networking and ingress options to connect your cluster to other Azure resources and the internet?
+
+
+
 ## Automated management and scalability
-What is automated management and scalability in AKS?
-How does AKS provide enterprise-grade container orchestration?
-How can I use automated management and scalability to improve my AKS cluster operations?
-End-to-end developer productivity
-How does AKS support end-to-end developer productivity?
-What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
-How can I use these tools and features to improve my development workflow with AKS?
+ - What is automated management and scalability in AKS?
+ - How does AKS provide enterprise-grade container orchestration?
+ - How can I use automated management and scalability to improve my AKS cluster operations?
+
+## End-to-end developer productivity
+ - How does AKS support end-to-end developer productivity?
+ - What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
+ - How can I use these tools and features to improve my development workflow with AKS?
 
 ## Advanced identity and access management
-What is advanced identity and access management in AKS?
-How can I use Azure Active Directory to monitor and maintain container security for governance at scale?
-What are some best practices for managing identity and access in AKS?
+ - What is advanced identity and access management in AKS?
+ - How can I use Azure Active Directory to monitor and maintain container security for governance at scale?
+ - What are some best practices for managing identity and access in AKS?
 
 ## Support for Linux, Windows Server, and IoT resources
-How does AKS support Linux, Windows Server, and IoT resources?
-How can I deploy AKS on the infrastructure of my choice using Azure Arc?
-What are some considerations when deploying AKS on different types of infrastructure?
+ - How does AKS support Linux, Windows Server, and IoT resources?
+ - How can I deploy AKS on the infrastructure of my choice using Azure Arc?
+ - What are some considerations when deploying AKS on different types of infrastructure?
 
 ## Azure Kubernetes Fleet Manager
-What is Azure Kubernetes Fleet Manager?
-How can I use Azure Kubernetes Fleet Manager to manage my AKS clusters?
-What are some benefits of using Azure Kubernetes Fleet Manager with AKS?
+ - What is Azure Kubernetes Fleet Manager?
+ - How can I use Azure Kubernetes Fleet Manager to manage my AKS clusters?
+ - What are some benefits of using Azure Kubernetes Fleet Manager with AKS?
 
 
 ## Azure Kubernetes Fleet Manager
-What is Azure Kubernetes Fleet Manager and how does it work?
-How can I use Azure Kubernetes Fleet Manager to manage multiple AKS clusters?
-What are the benefits of using Azure Kubernetes Fleet Manager with AKS?
+ - What is Azure Kubernetes Fleet Manager and how does it work?
+ - How can I use Azure Kubernetes Fleet Manager to manage multiple AKS clusters?
+ - What are the benefits of using Azure Kubernetes Fleet Manager with AKS?
+
 ## Azure Arc integration
-How does AKS integrate with Azure Arc?
-How can I use Azure Arc to deploy and manage AKS clusters on-premises or at the edge?
-What are the benefits of using AKS with Azure Arc?
+ - How does AKS integrate with Azure Arc?
+ - How can I use Azure Arc to deploy and manage AKS clusters on-premises or at the edge?
+ - What are the benefits of using AKS with Azure Arc?
+ - 
 ## Advanced networking options
-What advanced networking options are available in AKS?
-How can I use advanced networking options to connect my AKS cluster to other Azure resources and the internet?
-What are some best practices for using advanced networking options in AKS?
+ - What advanced networking options are available in AKS?
+ - How can I use advanced networking options to connect my AKS cluster to other Azure resources and the internet?
+ - What are some best practices for using advanced networking options in AKS?
+ 
 ## Cost optimization
-How can I optimize the costs of running an AKS cluster on Azure?
-What tools and features are available in AKS to help me monitor and control costs?
-What are some best practices for cost optimization in AKS?
+ - How can I optimize the costs of running an AKS cluster on Azure?
+ - What tools and features are available in AKS to help me monitor and control costs?
+ - What are some best practices for cost optimization in AKS?
 
 
 ## Backup
-What backup options are available in AKS?
-How can I backup my AKS cluster and its data?
-What are some best practices for backing up an AKS cluster?
+ - What backup options are available in AKS?
+ - How can I backup my AKS cluster and its data?
+ - What are some best practices for backing up an AKS cluster?
+ 
 ## Resiliency of compute and data
-How does AKS ensure the resiliency of compute and data?
-What features and tools are available in AKS to improve the resiliency of my applications?
-What are some best practices for ensuring the resiliency of compute and data in AKS?
+ - How does AKS ensure the resiliency of compute and data?
+ - What features and tools are available in AKS to improve the resiliency of my applications?
+ - What are some best practices for ensuring the resiliency of compute and data in AKS?
+ 
 ## Disaster recovery
-What disaster recovery options are available in AKS?
-How can I prepare for and recover from a disaster in AKS?
-What are some best practices for disaster recovery in AKS?
+ - What disaster recovery options are available in AKS?
+ - How can I prepare for and recover from a disaster in AKS?
+ - What are some best practices for disaster recovery in AKS?
 
 
