@@ -57,3 +57,24 @@ Azure Kubernetes Fleet Manager
 What is Azure Kubernetes Fleet Manager?
 How can I use Azure Kubernetes Fleet Manager to manage my AKS clusters?
 What are some benefits of using Azure Kubernetes Fleet Manager with AKS?
+
+
+## Azure Kubernetes Fleet Manager
+What is Azure Kubernetes Fleet Manager and how does it work?
+How can I use Azure Kubernetes Fleet Manager to manage multiple AKS clusters?
+What are the benefits of using Azure Kubernetes Fleet Manager with AKS?
+## Azure Arc integration
+How does AKS integrate with Azure Arc?
+How can I use Azure Arc to deploy and manage AKS clusters on-premises or at the edge?
+What are the benefits of using AKS with Azure Arc?
+## Advanced networking options
+What advanced networking options are available in AKS?
+How can I use advanced networking options to connect my AKS cluster to other Azure resources and the internet?
+What are some best practices for using advanced networking options in AKS?
+## Cost optimization
+How can I optimize the costs of running an AKS cluster on Azure?
+What tools and features are available in AKS to help me monitor and control costs?
+What are some best practices for cost optimization in AKS?
+
+
+
