@@ -8,7 +8,7 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
   - How does AKS make managing and scaling containerized applications easier?
   - What are the different ways to create an AKS cluster?
   - How can I use kubectl and Azure CLI to access and manage my AKS cluster?
-  - 
+  
 ## Deploying your first applications on AKS
   - What steps should I take to prepare my application for deployment on AKS?
   - “How can I use Azure Container Registry for storing and managing container images?
