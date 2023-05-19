@@ -4,6 +4,8 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
 
 ## Introduction to Azure Kubernetes Service
   - What is AKS and why use it?
+  - What are the benefits of using AKS for deploying multi-container applications?
+  - How does AKS simplify the process of managing and scaling containerized applications?
   - How to create an AKS cluster using different methods?
   - How to access and manage your cluster using kubectl and Azure CLI?
   - 
@@ -13,14 +15,18 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
   - How to run, scale, and update my application on AKS?
   - How to upgrade Kubernetes in AKS?
 
+Can you provide an example of how to deploy an application on AKS using Azure Container Registry?
+
 ## Securing your App
+	- What are some best practices for securing an AKS cluster?
 	- how to provide my workload access to the Key vault on AKS ?
 	- how to manage workload identities on AKS ?
 
 ## Neworking
 	- What is Cilium and what is the difference between CNI Clilium powered Azure overlay and Azure CNI Overlay  ?
 
-## - Securing and monitoring your AKS cluster
+## - Securing and monitoring your AKS cluster- 
+  - What are some best practices for securing and monitoring an AKS cluster?
   - How to use Kubernetes RBAC and Azure AD integration to control access and permissions?
   - How to use Azure Monitor and Container Insights to monitor the health and performance of your cluster and applications?
   - how to optimize the costs of monitoring AKS on Azure ?
@@ -35,6 +41,7 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
 
 ##  Extending the capabilities of your AKS cluster
   - How to use Open Service Mesh and Dapr to add service mesh features to your applications?
+  - Can you provide an example of how to use Open Service Mesh or Dapr with AKS to add service mesh features to an application?
   - How to use cluster extensions and GitHub Actions to automate and enhance your cluster operations?
   - How to use advanced networking and ingress options to connect your cluster to other Azure resources and the internet?
 
@@ -46,7 +53,7 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
  - How can I use automated management and scalability to improve my AKS cluster operations?
 
 ## End-to-end developer productivity
- - How does AKS support end-to-end developer productivity?
+ -How does AKS support end-to-end developer productivity and what tools are available to improve the development workflow?
  - What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
  - How can I use these tools and features to improve my development workflow with AKS?
 
