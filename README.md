@@ -21,61 +21,86 @@ Can you provide an example of how to deploy an application on AKS using Azure Co
 ## High availability
 For Developers:
 
-How do I set Pod Health & Readiness Probes in AKS?
+
+- How do I set Pod Health & Readiness Probes in AKS?
+
 For Admins:
 
-How do I enable Cluster availability zones on the default node pool in AKS?
-How do I design user node pools stretched on 3 AZs in AKS?
-How do I use Data disks with Zonal or Regional replication (ZRS/GRS) in AKS?
-How do I use Pod anti-affinity to spread pods across nodes and zones in AKS?
-(Optional) How do I set Pod Disruption Budgets in AKS?
+
+- How do I enable Cluster availability zones on the default node pool in AKS?
+
+- How do I design user node pools stretched on 3 AZs in AKS?
+
+- How do I use Data disks with Zonal or Regional replication (ZRS/GRS) in AKS?
+
+- How do I use Pod anti-affinity to spread pods across nodes and zones in AKS?
+
+- (Optional) How do I set Pod Disruption Budgets in AKS?
+
 For Both Developers and Admins:
 
-How do I set Pod Health & Readiness Probes in AKS?
-Is there anything else you would like me to help with? 😊
+
+- How do I set Pod Health & Readiness Probes in AKS?
+
 
 ## Scalability
 For Developers:
 
-How do I use KEDA scaler to scale workloads based on events and metrics in AKS?
+
+- How do I use KEDA scaler to scale workloads based on events and metrics in AKS?
+
+
 For Admins:
 
-How do I enable cluster auto-scaler in AKS?
-How do I enable the KEDA addon in AKS?
-How do I enable Virtual nodes in AKS? (Note: Virtual nodes do not work with CNI Overlay)
+
+- How do I enable cluster auto-scaler in AKS?
+
+- How do I enable the KEDA addon in AKS?
+
+- How do I enable Virtual nodes in AKS? (Note: Virtual nodes do not work with CNI Overlay)
+
 For Both Developers and Admins:
 
-How do I use KEDA scaler to scale workloads based on events and metrics in AKS?
 
-use CNI-Overlay driver
-use OutboundType: UDR (flag for cluster creation) to force egress traffic to Firewall
-Use in-cluster Ingress controller (such as nginx) + External WAF (application Gateway) ; do not use AGIC for your context 
-To expose http apps: 
-* use serviceType: clusterip
-* Use Ingress resource to expose it externally
-To expose non http apps: 
-* use serviceType: loadbalancer (most common configuration); 
-* use internal load balancer (private IP)
-![image](https://github.com/yelghali/prompt-based-tutorial-AKS/assets/966110/2d92e291-66c8-48d3-b645-3abe5b174398)
+- How do I use KEDA scaler to scale workloads based on events and metrics in AKS?
 
 ## Networking
 For Developers:
-1. How do I use an Ingress resource to expose an HTTP application externally in AKS?
-2. How do I use serviceType: clusterip to expose an HTTP application in AKS?
-3. How do I use serviceType: loadbalancer to expose a non-HTTP application in AKS?
-4. How do I use an internal load balancer (private IP) to expose a non-HTTP application in AKS?
+
+- How can I expose an HTTP application to external traffic using an Ingress resource in AKS?
+
+- How can I use serviceType: clusterip to make an HTTP application accessible within the AKS cluster?
+
+- How can I use serviceType: loadbalancer to expose a non-HTTP application externally in AKS?
+
+- How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
+
 For Admins:
-1. How do I use the CNI-Overlay driver in AKS?
-2. How do I use the OutboundType: UDR flag for cluster creation to force egress traffic to Firewall in AKS?
-3. How do I use an in-cluster Ingress controller (such as nginx) + External WAF (application Gateway) in AKS? (Note: Do not use AGIC for your context)
-4. How do I use serviceType: clusterip to expose an HTTP application in AKS?
-5. How do I use serviceType: loadbalancer to expose a non-HTTP application in AKS?
-6. How do I use an internal load balancer (private IP) to expose a non-HTTP application in AKS?
+
+
+- How can I configure the CNI-Overlay driver for networking in AKS?
+
+- How can I force egress traffic to go through a Firewall by using the OutboundType: UDR flag during cluster creation in AKS?
+
+- How can I set up an in-cluster Ingress controller, such as nginx, along with an External WAF like Application Gateway in AKS? (Note: Do not use AGIC for your context)
+
+- How can I expose an HTTP application within the AKS cluster by using serviceType: clusterip?
+
+- How can I use serviceType: loadbalancer to expose a non-HTTP application externally in AKS?
+
+- How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
+
+
 For Both Developers and Admins:
-1. How do I use an Ingress resource to expose an HTTP application externally in AKS?
-2. How do I use serviceType: clusterip to expose an HTTP application in AKS?
-3. How do I use serviceType: loadbalancer to expose a non-HTTP application in AKS?
-4. How do I use an internal load balancer (private IP) to expose a non-HTTP application in AKS?
+
+
+- How can I expose an HTTP application to external traffic using an Ingress resource in AKS?
+
+- How can I use serviceType: clusterip to make an HTTP application accessible within the AKS cluster?
+
+- How can I use serviceType: loadbalancer to expose a non-HTTP application externally in AKS?
+
+- How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
 
 ## Identity & RBAC
 For Developers:
@@ -83,120 +108,191 @@ For Developers:
 How do I use Azure AD workload identity for App authentication & authorization in AKS?
 For Admins:
 
-How do I use managed identities for cluster internal operations in AKS?
-How do I use a managed identity for the cluster server in AKS?
-(Optional) How do I use a second managed identity for kubelet in AKS?
-How do I enable Azure AD Integration for RBAC in AKS? (Note: There are 2 options for authorization: Azure RBAC or Kubernetes RBAC)
-How do I restrict access to the API server Admin credentials in AKS? (Note: Restricted to a group in Azure AD)
-How do I disable local accounts in AKS?
-How do I restrict RBAC for namespaces in AKS?
-How do I specify which teams can edit resources on a namespace and which teams have read-only access in AKS? (For example, teams belonging to Azure AD Group 1)
+
+- How do I use managed identities for cluster internal operations in AKS?
+
+- How do I use a managed identity for the cluster server in AKS?
+
+- (Optional) How do I use a second managed identity for kubelet in AKS?
+
+- How do I enable Azure AD Integration for RBAC in AKS? (Note: There are 2 options for authorization: Azure RBAC or Kubernetes RBAC)
+
+- How do I restrict access to the API server Admin credentials in AKS? (Note: Restricted to a group in Azure AD)
+
+- How do I disable local accounts in AKS?
+
+- How do I restrict RBAC for namespaces in AKS?
+
+- How do I specify which teams can edit resources on a namespace and which teams have read-only access in AKS? (For example, teams belonging to Azure AD Group 1)
+
 For Both Developers and Admins:
 
-How do I use Azure AD workload identity for App authentication & authorization in AKS?
+
+- How do I use Azure AD workload identity for App authentication & authorization in AKS?
 
 
 ## Monitoring
 For Developers:
 
-How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
+
+- How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
 For Admins:
 
-How do I enable Diagnostic settings for a cluster in AKS?
-How do I enable container insights for a cluster in AKS?
-How do I set data collection rules to filter logs & metrics for a cluster in AKS?
-(Optional) How do I use Managed Prometheus for Metrics + managed Grafana for visualization in a cluster in AKS?
-(Optional) How do I use Prometheus alerts integration with Azure Monitor Actions (email, trigger workflow, ITSM, etc.) in a cluster in AKS?
+
+- How do I enable Diagnostic settings for a cluster in AKS?
+
+- How do I enable container insights for a cluster in AKS?
+
+- How do I set data collection rules to filter logs & metrics for a cluster in AKS?
+
+- (Optional) How do I use Managed Prometheus for Metrics + managed Grafana for visualization in a cluster in AKS?
+
+- (Optional) How do I use Prometheus alerts integration with Azure Monitor Actions (email, trigger workflow, ITSM, etc.) in a cluster in AKS?
+
 For Both Developers and Admins:
 
-How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
+
+- How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
 
 ## Security
 For Developers:
 
-How do I scan container images in AKS?
-How do I secure access to the container registry in AKS?
+
+- How do I scan container images in AKS?
+
+- How do I secure access to the container registry in AKS?
+
 For Admins:
 
-How do I set network policies at the namespace level in AKS? (Note: Deny all by default)
-How do I enable a private cluster in AKS?
-How do I enable Azure Policies in AKS?
-How do I enable Defender in AKS?
-How do I enable monitoring in AKS?
-How do I enable Key Vault CSI Integration in AKS?
-How do I enable the secret store CSI driver in AKS?
-How do I enable Azure AD Integration in AKS?
-How do I secure Ingress traffic with a Web Application Firewall (WAF) in AKS?
-How do I secure egress traffic through Azure Firewall or NVA in AKS?
-How do I scan container images in AKS?
-How do I secure access to the container registry in AKS?
+
+- How do I set network policies at the namespace level in AKS? (Note: Deny all by default)
+
+- How do I enable a private cluster in AKS?
+
+- How do I enable Azure Policies in AKS?
+
+- How do I enable Defender in AKS?
+
+- How do I enable monitoring in AKS?
+
+- How do I enable Key Vault CSI Integration in AKS?
+
+- How do I enable the secret store CSI driver in AKS?
+
+- How do I enable Azure AD Integration in AKS?
+
+- How do I secure Ingress traffic with a Web Application Firewall (WAF) in AKS?
+
+- How do I secure egress traffic through Azure Firewall or NVA in AKS?
+
+- How do I scan container images in AKS?
+
+- How do I secure access to the container registry in AKS?
+
 For Both Developers and Admins:
 
-How do I scan container images in AKS?
-How do I secure access to the container registry in AKS?
+
+- How do I scan container images in AKS?
+
+- How do I secure access to the container registry in AKS?
 
 ## Cluster Upgrades
 For Developers: None
 
 For Admins:
 
-How do I enable cluster auto-upgrade channels in AKS?
-How do I enable patch releases for production environments in AKS?
-How do I enable stable releases for development environments in AKS?
-How do I enable node image upgrades in AKS?
-How do I enable the Image Cleaner in AKS?
-How do I implement blue/green deployment in AKS?
+
+- How do I enable cluster auto-upgrade channels in AKS?
+
+- How do I enable patch releases for production environments in AKS?
+
+- How do I enable stable releases for development environments in AKS?
+
+- How do I enable node image upgrades in AKS?
+
+- How do I enable the Image Cleaner in AKS?
+
+- How do I implement blue/green deployment in AKS?
 
 For Both Developers and Admins: None
 
 ## Cost Optimization
 For Developers:
 
-How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
-How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
+
+- How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
+
+- How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
 For Admins:
 
-How do I use the Cluster Autoscaler in AKS? (Note: The biggest chunk of savings is here)
-How do I use the Start/Stop feature for development environments in AKS?
-How do I use dedicated Node Pools for special workloads in AKS?
-How do I use Spot instances in AKS?
-How do I use Reserved Instances in AKS?
-How do I use Burstable VMs in AKS?
-How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
-How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
-How do I use ACI through virtual nodes in AKS?
+
+- How do I use the Cluster Autoscaler in AKS? (Note: The biggest chunk of savings is here)
+
+- How do I use the Start/Stop feature for development environments in AKS?
+
+- How do I use dedicated Node Pools for special workloads in AKS?
+
+- How do I use Spot instances in AKS?
+
+- How do I use Reserved Instances in AKS?
+
+- How do I use Burstable VMs in AKS?
+
+- How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
+
+- How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
+
+- How do I use ACI through virtual nodes in AKS?
+
 For Both Developers and Admins:
 
-How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
-How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
+
+- How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
+
+- How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
 
 
 ## Backup & restore
 For Developers:
 
-How do I use Infrastructure as Code in AKS?
-(Optional) How do I implement GitOps in AKS?
+
+- How do I use Infrastructure as Code in AKS?
+
+- (Optional) How do I implement GitOps in AKS?
+
 For Admins:
 
-How do I use Infrastructure as Code in AKS?
-(Optional) How do I implement GitOps in AKS?
-How do I enable AKS backup for disks in AKS?
-How do I enable Azure backup for Fileshare in AKS?
-How do I enable Azure Blob replication for blobs in AKS?
-(Optional) How do I set Snapshot Classes for disk snapshots in AKS?
-How do I restore to the same region using AKS backup in AKS? (Note: Works with disks only today)
-How do I restore to a different region using Velero OSS in AKS? (Note: Works with disks & fileshare)
+
+- How do I use Infrastructure as Code in AKS?
+
+- (Optional) How do I implement GitOps in AKS?
+
+- How do I enable AKS backup for disks in AKS?
+
+- How do I enable Azure backup for Fileshare in AKS?
+
+- How do I enable Azure Blob replication for blobs in AKS?
+
+- (Optional) How do I set Snapshot Classes for disk snapshots in AKS?
+
+- How do I restore to the same region using AKS backup in AKS? (Note: Works with disks only today)
+
+- How do I restore to a different region using Velero OSS in AKS? (Note: Works with disks & fileshare)
+
 For Both Developers and Admins:
 
-How do I use Infrastructure as Code in AKS?
-(Optional) How do I implement GitOps in AKS?
+
+- How do I use Infrastructure as Code in AKS?
+
+- (Optional) How do I implement GitOps in AKS?
 
 
 ## Managing clusters at scale
 
 For Both Developers and Admins:
 
-How do I manage clusters at scale using GitOps and Azure Policy in AKS?
+
+- How do I manage clusters at scale using GitOps and Azure Policy in AKS?
 
 
 ## Securing your App
