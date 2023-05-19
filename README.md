@@ -77,4 +77,17 @@ What tools and features are available in AKS to help me monitor and control cost
 What are some best practices for cost optimization in AKS?
 
 
+## Backup
+What backup options are available in AKS?
+How can I backup my AKS cluster and its data?
+What are some best practices for backing up an AKS cluster?
+## Resiliency of compute and data
+How does AKS ensure the resiliency of compute and data?
+What features and tools are available in AKS to improve the resiliency of my applications?
+What are some best practices for ensuring the resiliency of compute and data in AKS?
+## Disaster recovery
+What disaster recovery options are available in AKS?
+How can I prepare for and recover from a disaster in AKS?
+What are some best practices for disaster recovery in AKS?
+
 
