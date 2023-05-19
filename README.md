@@ -3,17 +3,17 @@
 In this tutorial, you will learn how to use Kubernetes and containers to deploy a multi-container application. You will use ChatGPT or GPT4 to guide you through a series of prompts that will help you understand the concepts and commands involved in Kubernetes. The objective of this tutorial is to simplify learning based on a prompts-enabled tutorial.
 
 ## Introduction to Azure Kubernetes Service
-  - What is AKS and why use it?
+  - What is Azure Kubernetes Service (AKS) and its benefits?
   - What are the benefits of using AKS for deploying multi-container applications?
-  - How does AKS simplify the process of managing and scaling containerized applications?
-  - How to create an AKS cluster using different methods?
-  - How to access and manage your cluster using kubectl and Azure CLI?
+  - How does AKS make managing and scaling containerized applications easier?
+  - What are the different ways to create an AKS cluster?
+  - How can I use kubectl and Azure CLI to access and manage my AKS cluster?
   - 
 ## Deploying your first applications on AKS
-  - How to prepare an application for AKS deployment?
-  - How to use Azure Container Registry to store and manage container images?
-  - How to run, scale, and update my application on AKS?
-  - How to upgrade Kubernetes in AKS?
+  - What steps should I take to prepare my application for deployment on AKS?
+  - “How can I use Azure Container Registry for storing and managing container images?
+  - What are the steps to run, scale, and update my application on AKS?”
+  - What is the process for upgrading Kubernetes in AKS?
 
 Can you provide an example of how to deploy an application on AKS using Azure Container Registry?
 
@@ -237,6 +237,8 @@ For Admins:
 - How do I use Reserved Instances in AKS?
 
 - How do I use Burstable VMs in AKS?
+
+- When to use Spot VM, reserved instances and bustable VMS ?
 
 - How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
 
