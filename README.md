@@ -35,3 +35,25 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
   - How to apply best practices for cluster operators and developers for day-2 operations?
   - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
+
+
+Automated management and scalability
+What is automated management and scalability in AKS?
+How does AKS provide enterprise-grade container orchestration?
+How can I use automated management and scalability to improve my AKS cluster operations?
+End-to-end developer productivity
+How does AKS support end-to-end developer productivity?
+What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
+How can I use these tools and features to improve my development workflow with AKS?
+Advanced identity and access management
+What is advanced identity and access management in AKS?
+How can I use Azure Active Directory to monitor and maintain container security for governance at scale?
+What are some best practices for managing identity and access in AKS?
+Support for Linux, Windows Server, and IoT resources
+How does AKS support Linux, Windows Server, and IoT resources?
+How can I deploy AKS on the infrastructure of my choice using Azure Arc?
+What are some considerations when deploying AKS on different types of infrastructure?
+Azure Kubernetes Fleet Manager
+What is Azure Kubernetes Fleet Manager?
+How can I use Azure Kubernetes Fleet Manager to manage my AKS clusters?
+What are some benefits of using Azure Kubernetes Fleet Manager with AKS?
