@@ -8,15 +8,11 @@ Act as an AKS teacher. I am an AKS learner that (is new to AKS / knowns basics o
 
 ## Introduction to Azure Kubernetes Service
 
-  - What is Azure Kubernetes Service (AKS) and its benefits?
+  - What is Azure Kubernetes Service (AKS) and the benefits does it bring?
 
   - What are the benefits of using AKS for deploying multi-container applications?
 
   - How does AKS make managing and scaling containerized applications easier?
-
-  - What are the different ways to create an AKS cluster?
-
-  - How can I use kubectl and Azure CLI to access and manage my AKS cluster?
 
   - What is the difference between AKS and other container orchestration services?
 
@@ -29,6 +25,10 @@ Act as an AKS teacher. I am an AKS learner that (is new to AKS / knowns basics o
  - What are some best practices for getting started with AKS?
   
 ## Deploying your first applications on AKS
+
+  - What are the different ways to create an AKS cluster?
+
+  - How can I use kubectl and Azure CLI to access and manage my AKS cluster?
 
   - What steps should I take to prepare my application for deployment on AKS?
 
