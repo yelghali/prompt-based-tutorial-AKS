@@ -126,6 +126,7 @@ Act as an AKS teacher. I am an AKS learner that (is new to AKS / knowns basics o
 
 ## Advanced Neworking
 - How can I use a service mesh to manage traffic between microservices in AKS?
+
 - What is Cilium and what is the difference between CNI Clilium powered Azure overlay and Azure CNI Overlay  ?
 	
 
@@ -329,14 +330,19 @@ For Both Developers and Admins:
 
 ## Architecture guidance and best practices for AKS
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
+
   - How to apply best practices for cluster operators and developers for day-2 operations?
+
   - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
 
 
 ##  Extending the capabilities of your AKS cluster
   - How to use Open Service Mesh and Dapr to add service mesh features to your applications?
+
   - Can you provide an example of how to use Open Service Mesh or Dapr with AKS to add service mesh features to an application?
+
   - How to use cluster extensions and GitHub Actions to automate and enhance your cluster operations?
+
   - How to use advanced networking and ingress options to connect your cluster to other Azure resources and the internet?
 
 
@@ -351,19 +357,27 @@ For Both Developers and Admins:
 
 ## Support for Linux, Windows Server, and IoT resources
  - How does AKS support Linux, Windows Server, and IoT resources?
+
  - What versions of Linux and Windows Server are supported by AKS?
+
  - How can I deploy AKS on the infrastructure of my choice using Azure Arc?
+
  - What are some considerations when deploying AKS on different types of infrastructure?
 
 ## Azure Kubernetes Fleet Manager
  - What is Azure Kubernetes Fleet Manager and how does it work?
+
  - How can I use Azure Kubernetes Fleet Manager to manage multiple AKS clusters?
+
  - What are the benefits of using Azure Kubernetes Fleet Manager with AKS?
 
 ## Azure Arc integration
  - How does AKS integrate with Azure Arc?
+
  - What is the difference between Azure Arc and Fleet Manager ?
+
  - How can I use Azure Arc to deploy and manage AKS clusters on-premises or at the edge?
+
  - What are the benefits of using AKS with Azure Arc?
 
 ## Lean more
