@@ -3,29 +3,36 @@
 In this tutorial, you will learn how to use Kubernetes and containers to deploy a multi-container application. You will use ChatGPT or GPT4 to guide you through a series of prompts that will help you understand the concepts and commands involved in Kubernetes. The objective of this tutorial is to simplify learning based on a prompts-enabled tutorial.
 
 ## Introduction to Azure Kubernetes Service
+
   - What is Azure Kubernetes Service (AKS) and its benefits?
+
   - What are the benefits of using AKS for deploying multi-container applications?
+
   - How does AKS make managing and scaling containerized applications easier?
+
   - What are the different ways to create an AKS cluster?
+
   - How can I use kubectl and Azure CLI to access and manage my AKS cluster?
   
 ## Deploying your first applications on AKS
+
   - What steps should I take to prepare my application for deployment on AKS?
+
   - “How can I use Azure Container Registry for storing and managing container images?
+
   - What are the steps to run, scale, and update my application on AKS?”
+
   - What is the process for upgrading Kubernetes in AKS?
 
 Can you provide an example of how to deploy an application on AKS using Azure Container Registry?
 
-
 ## High availability
-For Developers:
-
+**For Developers**:
 
 - How do I set Pod Health & Readiness Probes in AKS?
 
-For Admins:
 
+**For Admins:**
 
 - How do I enable Cluster availability zones on the default node pool in AKS?
 
@@ -39,13 +46,13 @@ For Admins:
 
 
 ## Scalability
-For Developers:
+**For Developers**:
 
 
 - How do I use KEDA scaler to scale workloads based on events and metrics in AKS?
 
 
-For Admins:
+**For Admins**:
 
 
 - How do I enable cluster auto-scaler in AKS?
@@ -56,7 +63,7 @@ For Admins:
 
 
 ## Networking
-For Developers:
+**For Developers**:
 
 - How can I expose an HTTP application to external traffic using an Ingress resource in AKS?
 
@@ -66,7 +73,7 @@ For Developers:
 
 - How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
 
-For Admins:
+**For Admins**:
 
 
 - How can I configure the CNI-Overlay driver for networking in AKS?
@@ -88,11 +95,11 @@ For Admins:
 	
 
 ## Identity & RBAC
-For Developers:
+**For Developers:**
 
-How do I use Azure AD workload identity for App authentication & authorization in AKS?
-For Admins:
+- How do I use Azure AD workload identity for App authentication & authorization in AKS?
 
+**For Admins**:
 
 - How do I use managed identities for cluster internal operations in AKS?
 
@@ -112,13 +119,13 @@ For Admins:
 
 
 ## Monitoring
-For Developers:
+**For Developers**:
 
 
 - How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
 
 
-For Admins:
+**For Admins**:
 
 - How do I enable Diagnostic settings for a cluster in AKS?
 
@@ -136,7 +143,7 @@ For Admins:
 
 
 ## Security
-For Developers:
+**For Developers:**
 
 
 - How do I scan container images in AKS?
@@ -147,7 +154,7 @@ For Developers:
 
 - how to provide my workload access to the Key vault on AKS ?
 
-For Admins:
+**For Admins**:
 
 - How do I set network policies at the namespace level in AKS? (Note: Deny all by default)
 
@@ -176,9 +183,9 @@ For Admins:
 - What are best practices for securing an AKS cluster?
 
 ## Cluster Upgrades
-For Developers: None
+**For Developers**: None
 
-For Admins:
+**For Admins**:
 
 
 - How do I enable cluster auto-upgrade channels in AKS?
@@ -195,14 +202,14 @@ For Admins:
 
 
 ## Cost Optimization
-For Developers:
+**For Developers**:
 
 
 - How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
 
 - How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
 
-For Admins:
+**For Admins**:
 
 
 - How do I use the Cluster Autoscaler in AKS? (Note: The biggest chunk of savings is here)
@@ -236,15 +243,13 @@ For Admins:
 
 
 ## Backup & restore
-For Developers:
-
+**For Developers** : 
 
 - How do I use Infrastructure as Code in AKS?
 
 - (Optional) How do I implement GitOps in AKS?
 
-For Admins:
-
+**For Admins**:
 
 - How do I use Infrastructure as Code in AKS?
 
