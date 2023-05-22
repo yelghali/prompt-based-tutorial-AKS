@@ -4,7 +4,7 @@ In this tutorial, you will learn how to use Kubernetes and containers to deploy 
 
 ## 1st prompt : asking the copilot to act as an AKS teacher
 
-Act as an AKS teacher. I am an AKS learner that (is new to AKS / knowns basics of AKS, uses AKS daily and wants detailed information), i will ask you a series of questions, and you help me learn and understand by providing the best and most up to date answer, with examples and links to documentation.
+Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is new to AKS / knowns basics of AKS, uses AKS daily and wants detailed information), i will ask you a series of questions, and you help me learn and understand by providing the best and most up to date answer, with examples and links to documentation.
 
 ## Introduction to Azure Kubernetes Service
 
