@@ -66,6 +66,7 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 **For Developers**:
 
 - How do I set Pod Health & Readiness Probes in AKS?
+- How do Pod Disruption budgets help with high availability on AKS?
 
 **For Admins:**
 
