@@ -350,7 +350,7 @@ For Both Developers and Admins:
  -How does AKS support end-to-end developer productivity and what tools are available to improve the development workflow?
  
  - What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
- - 
+
  - How can I use Visual Studio Code and the Kubernetes extension to develop and debug applications on my AKS cluster?
 
  - How can I use Azure DevOps or GitHub Actions to implement CI/CD for my applications on AKS?
