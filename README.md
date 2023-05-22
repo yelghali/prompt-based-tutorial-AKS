@@ -171,8 +171,6 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 
 - How do I restrict RBAC for namespaces in AKS?
 
-- How do I specify which teams can edit resources on a namespace and which teams have read-only access in AKS? (For example, teams belonging to Azure AD Group 1)
-
 
 ## Monitoring
 **For Developers**:
