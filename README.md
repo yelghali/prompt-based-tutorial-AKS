@@ -37,11 +37,6 @@ For Admins:
 
 - (Optional) How do I set Pod Disruption Budgets in AKS?
 
-For Both Developers and Admins:
-
-
-- How do I set Pod Health & Readiness Probes in AKS?
-
 
 ## Scalability
 For Developers:
@@ -59,10 +54,6 @@ For Admins:
 
 - How do I enable Virtual nodes in AKS? (Note: Virtual nodes do not work with CNI Overlay)
 
-For Both Developers and Admins:
-
-
-- How do I use KEDA scaler to scale workloads based on events and metrics in AKS?
 
 ## Networking
 For Developers:
@@ -91,19 +82,10 @@ For Admins:
 - How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
 
 
-For Both Developers and Admins:
-
-
-- How can I expose an HTTP application to external traffic using an Ingress resource in AKS?
-
-- How can I use serviceType: clusterip to make an HTTP application accessible within the AKS cluster?
-
-- How can I use serviceType: loadbalancer to expose a non-HTTP application externally in AKS?
-
-- How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
 
 ## Advanced Neworking
 	- What is Cilium and what is the difference between CNI Clilium powered Azure overlay and Azure CNI Overlay  ?
+	
 
 ## Identity & RBAC
 For Developers:
@@ -128,11 +110,6 @@ For Admins:
 
 - How do I specify which teams can edit resources on a namespace and which teams have read-only access in AKS? (For example, teams belonging to Azure AD Group 1)
 
-For Both Developers and Admins:
-
-
-- How do I use Azure AD workload identity for App authentication & authorization in AKS?
-
 
 ## Monitoring
 For Developers:
@@ -156,10 +133,6 @@ For Admins:
 - (Optional) How do I use Prometheus alerts integration with Azure Monitor Actions (email, trigger workflow, ITSM, etc.) in a cluster in AKS?
 
 - how to optimize the costs of monitoring AKS on Azure ?
-
-For Both Developers and Admins:
-
-- How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
 
 
 ## Security
@@ -252,17 +225,13 @@ For Admins:
 
 - How do I use ACI through virtual nodes in AKS?
 
-For Both Developers and Admins:
-
-
-- How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
-
-- How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
-
 
 ## Resiliency of compute and data
- - How does AKS ensure the resiliency of compute and data?
+
+ - How does AKS ensure the resiliency of compute and data?*
+ 
  - What features and tools are available in AKS to improve the resiliency of my applications?
+
  - What are some best practices for ensuring the resiliency of compute and data in AKS?
 
 
