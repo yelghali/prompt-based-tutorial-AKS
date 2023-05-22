@@ -102,6 +102,9 @@ For Both Developers and Admins:
 
 - How can I use an internal load balancer with a private IP to expose a non-HTTP application within a virtual network in AKS?
 
+## Advanced Neworking
+	- What is Cilium and what is the difference between CNI Clilium powered Azure overlay and Azure CNI Overlay  ?
+
 ## Identity & RBAC
 For Developers:
 
@@ -136,8 +139,9 @@ For Developers:
 
 
 - How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
-For Admins:
 
+
+For Admins:
 
 - How do I enable Diagnostic settings for a cluster in AKS?
 
@@ -145,14 +149,18 @@ For Admins:
 
 - How do I set data collection rules to filter logs & metrics for a cluster in AKS?
 
+- How to use Azure Monitor and Container Insights to monitor the health and performance of your cluster and applications?
+
 - (Optional) How do I use Managed Prometheus for Metrics + managed Grafana for visualization in a cluster in AKS?
 
 - (Optional) How do I use Prometheus alerts integration with Azure Monitor Actions (email, trigger workflow, ITSM, etc.) in a cluster in AKS?
 
+- how to optimize the costs of monitoring AKS on Azure ?
+
 For Both Developers and Admins:
 
-
 - How do I expose health & readiness metrics for workloads/apps in AKS? (Note: Non-authenticated)
+
 
 ## Security
 For Developers:
@@ -162,8 +170,11 @@ For Developers:
 
 - How do I secure access to the container registry in AKS?
 
-For Admins:
+- how to manage workload identities on AKS ?
 
+- how to provide my workload access to the Key vault on AKS ?
+
+For Admins:
 
 - How do I set network policies at the namespace level in AKS? (Note: Deny all by default)
 
@@ -189,12 +200,7 @@ For Admins:
 
 - How do I secure access to the container registry in AKS?
 
-For Both Developers and Admins:
-
-
-- How do I scan container images in AKS?
-
-- How do I secure access to the container registry in AKS?
+- What are best practices for securing an AKS cluster?
 
 ## Cluster Upgrades
 For Developers: None
@@ -214,7 +220,6 @@ For Admins:
 
 - How do I implement blue/green deployment in AKS?
 
-For Both Developers and Admins: None
 
 ## Cost Optimization
 For Developers:
@@ -223,6 +228,7 @@ For Developers:
 - How do I use Goldilocks for recommendations on setting CPU & RAM requests in AKS?
 
 - How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
+
 For Admins:
 
 
@@ -254,6 +260,12 @@ For Both Developers and Admins:
 - How do I use affinity to reduce cross-zone charges for multi-zone clusters/pools in AKS?
 
 
+## Resiliency of compute and data
+ - How does AKS ensure the resiliency of compute and data?
+ - What features and tools are available in AKS to improve the resiliency of my applications?
+ - What are some best practices for ensuring the resiliency of compute and data in AKS?
+
+
 ## Backup & restore
 For Developers:
 
@@ -277,41 +289,21 @@ For Admins:
 
 - (Optional) How do I set Snapshot Classes for disk snapshots in AKS?
 
-- How do I restore to the same region using AKS backup in AKS? (Note: Works with disks only today)
+- How can I prepare for and recover from a disaster in AKS?
 
-- How do I restore to a different region using Velero OSS in AKS? (Note: Works with disks & fileshare)
+- What are some best practices for disaster recovery in AKS? 
 
-For Both Developers and Admins:
+- How do I restore to the same region using AKS backup in AKS? 
 
-
-- How do I use Infrastructure as Code in AKS?
-
-- (Optional) How do I implement GitOps in AKS?
+- How do I restore to a different region using Velero OSS in AKS? 
 
 
 ## Managing clusters at scale
 
 For Both Developers and Admins:
 
-
 - How do I manage clusters at scale using GitOps and Azure Policy in AKS?
 
-
-## Securing your App
-	- What are some best practices for securing an AKS cluster?
-	- how to provide my workload access to the Key vault on AKS ?
-	- how to manage workload identities on AKS ?
-
-## Advanced Neworking
-	- What is Cilium and what is the difference between CNI Clilium powered Azure overlay and Azure CNI Overlay  ?
-
-## - Securing and monitoring your AKS cluster- 
-  - What are some best practices for securing and monitoring an AKS cluster?
-  - How to use Kubernetes RBAC and Azure AD integration to control access and permissions?
-  - How to use Azure Monitor and Container Insights to monitor the health and performance of your cluster and applications?
-  - how to optimize the costs of monitoring AKS on Azure ?
-  - How to use network policies and security baselines to protect your cluster from threats?
-  - 
 
 ## Architecture guidance and best practices for AKS
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
@@ -326,7 +318,6 @@ For Both Developers and Admins:
   - How to use advanced networking and ingress options to connect your cluster to other Azure resources and the internet?
 
 
-
 ## Automated management and scalability
  - What is automated management and scalability in AKS?
  - How does AKS provide enterprise-grade container orchestration?
@@ -337,21 +328,10 @@ For Both Developers and Admins:
  - What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
  - How can I use these tools and features to improve my development workflow with AKS?
 
-## Advanced identity and access management
- - What is advanced identity and access management in AKS?
- - How can I use Azure Active Directory to monitor and maintain container security for governance at scale?
- - What are some best practices for managing identity and access in AKS?
-
 ## Support for Linux, Windows Server, and IoT resources
  - How does AKS support Linux, Windows Server, and IoT resources?
  - How can I deploy AKS on the infrastructure of my choice using Azure Arc?
  - What are some considerations when deploying AKS on different types of infrastructure?
-
-## Azure Kubernetes Fleet Manager
- - What is Azure Kubernetes Fleet Manager?
- - How can I use Azure Kubernetes Fleet Manager to manage my AKS clusters?
- - What are some benefits of using Azure Kubernetes Fleet Manager with AKS?
-
 
 ## Azure Kubernetes Fleet Manager
  - What is Azure Kubernetes Fleet Manager and how does it work?
@@ -362,31 +342,5 @@ For Both Developers and Admins:
  - How does AKS integrate with Azure Arc?
  - How can I use Azure Arc to deploy and manage AKS clusters on-premises or at the edge?
  - What are the benefits of using AKS with Azure Arc?
- - 
-## Advanced networking options
- - What advanced networking options are available in AKS?
- - How can I use advanced networking options to connect my AKS cluster to other Azure resources and the internet?
- - What are some best practices for using advanced networking options in AKS?
- 
-## Cost optimization
- - How can I optimize the costs of running an AKS cluster on Azure?
- - What tools and features are available in AKS to help me monitor and control costs?
- - What are some best practices for cost optimization in AKS?
-
-
-## Backup
- - What backup options are available in AKS?
- - How can I backup my AKS cluster and its data?
- - What are some best practices for backing up an AKS cluster?
- 
-## Resiliency of compute and data
- - How does AKS ensure the resiliency of compute and data?
- - What features and tools are available in AKS to improve the resiliency of my applications?
- - What are some best practices for ensuring the resiliency of compute and data in AKS?
- 
-## Disaster recovery
- - What disaster recovery options are available in AKS?
- - How can I prepare for and recover from a disaster in AKS?
- - What are some best practices for disaster recovery in AKS?
 
 
