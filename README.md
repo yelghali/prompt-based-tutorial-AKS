@@ -42,7 +42,6 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 
   - How can I troubleshoot common issues when deploying an application on AKS?
 
-  - What is the process for upgrading Kubernetes in AKS?
 
 ## Architecture guidance and best practices for AKS
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
