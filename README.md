@@ -125,7 +125,7 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 
 - How can I use network policies to control traffic between pods in AKS?
 
-6 How can I use virtual networks and subnets to isolate and secure my AKS cluster?
+- How can I use virtual networks and subnets to isolate and secure my AKS cluster?
 
 - How can I use network security groups to control traffic between nodes in AKS?
 
