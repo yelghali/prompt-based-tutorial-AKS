@@ -288,15 +288,6 @@ Act as an AKS teacher. I am an AKS learner that (is new to AKS / knowns basics o
 - How do I use ACI through virtual nodes in AKS?
 
 
-## Resiliency of compute and data
-
- - How does AKS ensure the resiliency of compute and data?
- 
- - What features and tools are available in AKS to improve the resiliency of my applications?
-
- - What are some best practices for ensuring the resiliency of compute and data in AKS?
-
-
 ## Backup & restore
 **For Developers** : 
 
