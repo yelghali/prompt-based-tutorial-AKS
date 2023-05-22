@@ -44,6 +44,14 @@ Act as an AKS teacher. I am an AKS learner that (is new to AKS / knowns basics o
 
   - What is the process for upgrading Kubernetes in AKS?
 
+## Architecture guidance and best practices for AKS
+  - How to design a baseline architecture for AKS that meets your requirements and constraints?
+
+  - How to apply best practices for cluster operators and developers for day-2 operations?
+
+  - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
+
+
 ## High availability
 **For Developers**:
 
@@ -326,14 +334,6 @@ For Both Developers and Admins:
 - How do I manage clusters at scale using GitOps and Azure Policy in AKS?
 
 - What are some best practices for managing multiple AKS clusters at scale?
-
-
-## Architecture guidance and best practices for AKS
-  - How to design a baseline architecture for AKS that meets your requirements and constraints?
-
-  - How to apply best practices for cluster operators and developers for day-2 operations?
-
-  - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
 
 
 ##  Extending the capabilities of your AKS cluster
