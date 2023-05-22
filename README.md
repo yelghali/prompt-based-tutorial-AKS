@@ -121,7 +121,7 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 **For Admins**:
 
 
-- What is AZure CNI-Overlay driver for networking in AKS, and how i can use it?
+- What is Azure CNI-Overlay driver for networking in AKS, and how i can use it?
 
 - How can I use network policies to control traffic between pods in AKS?
 
