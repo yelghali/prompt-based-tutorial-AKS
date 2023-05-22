@@ -43,6 +43,15 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
   - How can I troubleshoot common issues when deploying an application on AKS?
 
 
+## End-to-end developer productivity
+ - How does AKS support end-to-end developer productivity and what tools are available to improve the development workflow?
+ 
+
+ - How can I use Visual Studio Code and the Kubernetes extension to develop and debug applications on my AKS cluster?
+
+ - How can I use Azure DevOps or GitHub Actions to implement CI/CD for my applications on AKS?
+
+
 ## Architecture guidance and best practices for AKS
   - How to design a baseline architecture for AKS that meets your requirements and constraints?
 
@@ -50,16 +59,6 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 
   - How to choose among different AKS solutions for specific scenarios, such as Windows containers, microservices, PCI-DSS compliance, and multiregion deployment?
 
-
-
-## End-to-end developer productivity
- - How does AKS support end-to-end developer productivity and what tools are available to improve the development workflow?
- 
- - What tools and features are available in AKS for debugging, CI/CD, logging, and automated node maintenance?
-
- - How can I use Visual Studio Code and the Kubernetes extension to develop and debug applications on my AKS cluster?
-
- - How can I use Azure DevOps or GitHub Actions to implement CI/CD for my applications on AKS?
 
 
 ## High availability
