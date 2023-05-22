@@ -8,7 +8,7 @@ Act as an AKS (Azure Kubernetes Service) teacher. I am an AKS learner that (is n
 
 ## Introduction to Azure Kubernetes Service
 
-  - What is Azure Kubernetes Service (AKS) and the benefits does it bring?
+  - What is Azure Kubernetes Service (AKS) and what benefits does it bring?
 
   - What are the benefits of using AKS for deploying multi-container applications?
 
