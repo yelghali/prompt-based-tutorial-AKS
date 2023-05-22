@@ -312,4 +312,9 @@ For Both Developers and Admins:
  - How can I use Azure Arc to deploy and manage AKS clusters on-premises or at the edge?
  - What are the benefits of using AKS with Azure Arc?
 
+## Lean more
+- https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-application
+- https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app
+- https://learn.microsoft.com/en-us/azure/aks/
+- https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks
 
